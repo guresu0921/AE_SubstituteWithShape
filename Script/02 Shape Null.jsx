@@ -1,6 +1,6 @@
 app.beginUndoGroup("Shape Null");
 (function(){
-    const shapeName="Shape Null";
+    const shapeName = "Shape Null";
     const activeComp = app.project.activeItem;
     const layers = activeComp.layers;
     const layerArr=[];
