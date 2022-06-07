@@ -1,6 +1,6 @@
 app.beginUndoGroup("Shape Adjustment");
 (function(){
-    const shapeName="Shape Adjustment";
+    const shapeName = "Shape Adjustment";
     const activeComp = app.project.activeItem;
     const layers = activeComp.layers;
     const layerArr=[];
